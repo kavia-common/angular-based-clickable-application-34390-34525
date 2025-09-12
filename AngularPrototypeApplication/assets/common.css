@@ -10,6 +10,9 @@
   --color-0f62fe: #0f62fe;
   --color-da1e28: #da1e28;
   --color-21272a: #21272a;
+  /* Correct token name from design system */
+  --color-cccccd: #cccccd;
+  /* Backward-compat alias used earlier in code (kept to avoid breakage) */
   --color-cccd: #cccccd;
   --color-212529: #212529;
   --color-000000: #000000;
@@ -22,6 +25,8 @@
   --color-e4e4e4: #e4e4e4;
   --color-d9d9d9: #d9d9d9;
   --color-eff1f3: #eff1f3;
+  --color-bbbbbb: #bbbbbb;
+  --color-eceaea: #eceaea;
 
   /* Typographic scales (from provided typography relevant to this screen) */
   --font-roboto: 'Roboto', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
