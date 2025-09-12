@@ -1,0 +1,125 @@
+:root {
+  /* Colors from design system (subset used by screen 86) */
+  --color-ffffff: #ffffff;
+  --color-dde1e6: #dde1e6;
+  --color-4d5358: #4d5358;
+  --color-697077: #697077;
+  --color-f2f4f8: #f2f4f8;
+  --color-c1c7cd: #c1c7cd;
+  --color-001d6c: #001d6c;
+  --color-0f62fe: #0f62fe;
+  --color-da1e28: #da1e28;
+  --color-21272a: #21272a;
+  --color-cccd: #cccccd;
+  --color-212529: #212529;
+  --color-000000: #000000;
+  --color-dbdbdb: #dbdbdb;
+  --color-8f9297: #8f9297;
+  --color-3a3e44: #3a3e44;
+  --color-8d8d8d: #8d8d8d;
+  --color-e6e7e8: #e6e7e8;
+  --color-121619: #121619;
+  --color-e4e4e4: #e4e4e4;
+  --color-d9d9d9: #d9d9d9;
+  --color-eff1f3: #eff1f3;
+
+  /* Typographic scales (from provided typography relevant to this screen) */
+  --font-roboto: 'Roboto', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+
+  --typo-62-size: 24px;  /* Roboto 24/700 */
+  --typo-62-weight: 700;
+  --typo-62-line: 26.4px;
+  --typo-62-color: var(--color-697077);
+
+  --typo-63-size: 16px;  /* Roboto 16/500 */
+  --typo-63-weight: 500;
+  --typo-63-line: 16px;
+  --typo-63-color: var(--color-21272a);
+
+  --typo-64-size: 12px;  /* Roboto 12/400 center white */
+  --typo-64-weight: 400;
+  --typo-64-line: 16.8px;
+  --typo-64-color: var(--color-ffffff);
+
+  --typo-66-size: 16px;  /* Roboto 16/500 #3a3e44 */
+  --typo-66-weight: 500;
+  --typo-66-line: 16px;
+  --typo-66-color: var(--color-3a3e44);
+
+  --typo-67-size: 14px;  /* Roboto 14/500 #8d8d8d */
+  --typo-67-weight: 500;
+  --typo-67-line: 14px;
+  --typo-67-color: var(--color-8d8d8d);
+
+  --typo-68-size: 16px;  /* Roboto 16/400 #697077 */
+  --typo-68-weight: 400;
+  --typo-68-line: 22.4px;
+  --typo-68-color: var(--color-697077);
+
+  --typo-69-size: 14px;  /* Roboto 14/500 #fff */
+  --typo-69-weight: 500;
+  --typo-69-line: 14px;
+  --typo-69-color: var(--color-ffffff);
+
+  --typo-70-size: 16px;  /* Roboto 16/400 #000 */
+  --typo-70-weight: 400;
+  --typo-70-line: 22.4px;
+  --typo-70-color: var(--color-000000);
+
+  --typo-71-size: 12px;  /* Roboto 12/400 #697077 */
+  --typo-71-weight: 400;
+  --typo-71-line: 16.8px;
+  --typo-71-color: var(--color-697077);
+
+  --typo-72-size: 20px;  /* Roboto 20/700 #121619 */
+  --typo-72-weight: 700;
+  --typo-72-line: 22px;
+  --typo-72-color: var(--color-121619);
+
+  --typo-73-size: 14px;  /* Roboto 14/500 #121619 */
+  --typo-73-weight: 500;
+  --typo-73-line: 19.6px;
+  --typo-73-color: var(--color-121619);
+
+  --typo-74-size: 24px;  /* Roboto 24/500 #000 */
+  --typo-74-weight: 500;
+  --typo-74-line: 26.4px;
+  --typo-74-color: var(--color-000000);
+
+  /* Spacing and radii tokens (subset) */
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-24: 24px;
+
+  --shadow-0: 0 2px 4px rgba(0,0,0,0.25);
+  --shadow-1: 0 8px 12px rgba(0,0,0,0.25);
+  --shadow-2: 0 0 1px rgba(0,0,0,0.25);
+
+  /* Layout constants per screen */
+  --sidebar-w: 220px;
+  --topbar-h: 80px;
+}
+
+/* Reset / base */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-roboto);
+  background: var(--color-ffffff);
+  color: var(--color-21272a);
+  height: 100%;
+}
+
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; margin: 0; padding: 0; }
+button { font-family: inherit; }
+
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
+}

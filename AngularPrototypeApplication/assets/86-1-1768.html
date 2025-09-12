@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Screen 86 (1:1768)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./86-1-1768.css">
+</head>
+<body>
+  <div class="screen86">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar__logo">
+        <div class="sidebar__logo-icon"></div>
+        <div class="sidebar__logo-text">Company</div>
+      </div>
+      <div class="sidebar__divider" aria-hidden="true"></div>
+
+      <nav class="sidebar__menu" aria-label="Main Navigation">
+        <a class="menu-item menu-item--active" href="#">
+          <span class="menu-item__icon menu-item__icon--dashboard" aria-hidden="true"></span>
+          <span class="menu-item__label">Dashboard</span>
+        </a>
+        <a class="menu-item" href="#">
+          <span class="menu-item__icon menu-item__icon--devices" aria-hidden="true"></span>
+          <span class="menu-item__label">Devices</span>
+        </a>
+        <a class="menu-item" href="#">
+          <span class="menu-item__icon menu-item__icon--analytics" aria-hidden="true"></span>
+          <span class="menu-item__label">Analytics</span>
+        </a>
+        <a class="menu-item" href="#">
+          <span class="menu-item__icon menu-item__icon--code" aria-hidden="true"></span>
+          <span class="menu-item__label">Firmware and Apps</span>
+        </a>
+        <div class="menu-item menu-item--more" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          <span class="menu-item__icon menu-item__icon--dots" aria-hidden="true"></span>
+          <span class="menu-item__label">More</span>
+          <span class="menu-item__badge">4</span>
+          <span class="menu-item__chev" aria-hidden="true"></span>
+        </div>
+
+        <div class="menu-section">
+          <div class="menu-section__item">
+            <span class="menu-section__label">Config Server</span>
+          </div>
+          <div class="menu-section__spacer"></div>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Main Column -->
+    <main class="main">
+      <!-- Top Bar -->
+      <header class="topbar">
+        <button class="topbar__back" aria-label="Go back">
+          <span class="icon-chevron-left" aria-hidden="true"></span>
+        </button>
+
+        <div class="topbar__tabs">
+          <a class="tab tab--active" href="#">
+            <span class="tab__icon tab__icon--user" aria-hidden="true"></span>
+            <span class="tab__label">Profile</span>
+          </a>
+          <a class="tab" href="#">
+            <span class="tab__icon tab__icon--file" aria-hidden="true"></span>
+            <span class="tab__label">Rules</span>
+          </a>
+        </div>
+
+        <div class="topbar__actions">
+          <div class="dropdown dropdown--partners" role="button" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+            <span class="dropdown__label">All Partners</span>
+            <span class="dropdown__chev" aria-hidden="true"></span>
+          </div>
+          <div class="dropdown dropdown--properties" role="button" tabindex="0" aria-haspopup="listbox" aria-expanded="false">
+            <span class="dropdown__label">All Properties</span>
+            <span class="dropdown__chev" aria-hidden="true"></span>
+          </div>
+
+          <div class="field field--search" role="search">
+            <span class="field__icon field__icon--search" aria-hidden="true"></span>
+            <span class="field__placeholder">Search for</span>
+          </div>
+
+          <button class="btn btn--disabled" disabled>
+            <span>Add Rule</span>
+          </button>
+
+          <div class="user-pill">
+            <span class="user-pill__avatar">J</span>
+            <span class="user-pill__meta">
+              <span class="user-pill__name">John.doe</span>
+              <span class="user-pill__role">Super user</span>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Breadcrumbs & Title Row -->
+      <section class="pagehead">
+        <div class="breadcrumbs" aria-label="Breadcrumb">
+          <span class="breadcrumbs__item">More</span>
+          <span class="breadcrumbs__chev" aria-hidden="true"></span>
+          <span class="breadcrumbs__item">Config Server</span>
+        </div>
+        <h1 class="pagehead__title">Config Server</h1>
+      </section>
+
+      <!-- Table Header Strip -->
+      <section class="tablehead">
+        <div class="thead-row">
+          <div class="thead-cell" style="width:216px">
+            <span class="thead-cell__label">Profile Name</span>
+          </div>
+          <div class="thead-cell" style="width:274px">
+            <span class="thead-cell__label">Enter repository URL</span>
+          </div>
+          <div class="thead-cell" style="width:295px">
+            <span class="thead-cell__label">Description</span>
+          </div>
+          <div class="thead-cell thead-cell--filter" style="width:253px">
+            <span class="thead-cell__label">Created Date</span>
+            <span class="thead-cell__filter" aria-hidden="true"></span>
+          </div>
+          <div class="thead-cell thead-cell--filter" style="width:312px">
+            <span class="thead-cell__label">Modified Date</span>
+            <span class="thead-cell__filter" aria-hidden="true"></span>
+          </div>
+          <div class="thead-cell" style="width:352px">
+            <span class="thead-cell__label">Actions</span>
+          </div>
+        </div>
+        <div class="thead-bg" aria-hidden="true"></div>
+      </section>
+
+      <!-- Empty notice -->
+      <section class="empty-note">
+        <p class="empty-note__text">Add Profile to add rules</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
